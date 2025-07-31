@@ -4,10 +4,7 @@ A Recruitment project built with Django
 
 # Tools & Services:
 - Django : Python Web Framework
-- Pytest: Testing Framework
-- Celery: Task scheduling
-- Flower: Task monitoring
-- Redis: Celery broker
+  
 
 
 # Features
@@ -50,22 +47,7 @@ Run the server using:
 python manage.py runserver
 ```
 
-Celery worker
-```
-celery -A talent_base worker --loglevel=info
-```
-Flower dashboard
-```
-celery -A talent_base flower --ports=5555
-```
 
-# Run tests
-
-Run tests in an activated virtualenv using:
-
-```
-pytest -v -rA
-```
 
 # Login
 ![Screenshot](screenshots/login.png)
@@ -93,6 +75,6 @@ pytest -v -rA
 ![Screenshot](screenshots/myapplications.png)
 
 
-# Flower dashboard
+# Dashboard
 ![Screenshot](screenshots/flower.png)
 
